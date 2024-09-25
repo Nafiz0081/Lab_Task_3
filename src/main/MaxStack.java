@@ -44,12 +44,11 @@ public class MaxStack {
         return poppedValue;
     }
 
-    // Max operation to return the current maximum in the stack
     public int max() {
         if (maxStack.isEmpty()) {
             throw new IllegalStateException("Stack is empty");
         }
-        return maxStack.peek();  // The top of the max stack is the current maximum
+        return maxStack.peek();
     }
     public int min() {
         if (minStack.isEmpty()) {
