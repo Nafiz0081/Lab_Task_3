@@ -2,6 +2,8 @@ package main;
 
 public class NumWordPrinter {
     public String printWord(int n, boolean toUpperCase) {
+
+
         String result;
         if (n % 2 == 0 && n % 11 == 0 && n % 13 == 0) {
             result = "EvenPrimeLucky";
